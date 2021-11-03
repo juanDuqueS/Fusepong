@@ -6,17 +6,17 @@ from .models import *
 
 @admin.register(Company)
 class CompanyAdmin(admin.ModelAdmin):
-    list_display = ['name', 'phone', 'email']
+    list_display = ['id', 'name', 'phone', 'email']
 
 @admin.register(Project)
 class ProjectAdmin(admin.ModelAdmin):
-    list_display = ['name']
+    list_display = ['id', 'name']
 
 @admin.register(History)
 class HistoryAdmin(admin.ModelAdmin):
-    list_display = ['name']
+    list_display = ['id', 'name']
 
 @admin.register(Ticket)
 class TicketAdmin(admin.ModelAdmin):
-    list_display = ['name', 'active', 'finished', 'createdBy', 'created', 'updated']
+    list_display = ['id', 'name', 'active', 'finished', 'createdBy', 'created', 'updated']
     list_filter = ['active', 'finished']

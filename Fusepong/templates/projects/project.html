@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %} {{ project.name}} {% endblock %}
+
+{% block content %}
+<a href="{% url 'getCompany' company.id %}" class="btn btn-primary">{{ company }} </a>
+{% for p in projects %}
+<div class="card" style="width: 18rem; ">
+    <h1>{{ p.name }}</h1>
+    <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+        <a href="{% url 'home' %}" class="btn btn-primary">Histories </a>
+    </div>
+</div>
+{% endfor %}
+{% endblock %}
