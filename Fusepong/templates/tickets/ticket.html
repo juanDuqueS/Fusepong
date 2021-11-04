@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %} {{ tickets.name}} {% endblock %}
+
+{% block content %}
+<a href="{% url 'getHistory' history.id %}" class="btn btn-primary">{{ history }} </a>
+{% for t in tickets %}
+<div class="card" style="width: 18rem; ">
+    <h1>{{ t.name }}</h1>
+    <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">{{ t.comments }}</p>
+    </div>
+</div>
+{% endfor %}
+{% endblock %}

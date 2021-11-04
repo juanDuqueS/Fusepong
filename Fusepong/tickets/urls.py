@@ -6,5 +6,6 @@ urlpatterns = [
     path('companies/', views.allCompanies, name='companies'),
     path('companies/<int:id>', views.getCompany, name='getCompany'),
     path('projects/<int:id>', views.getProject, name='getProject'),
-    path('histories/<int:id>', views.getHistory, name='getHistory')
+    path('histories/<int:id>', views.getHistory, name='getHistory'),
+    path('tickets/<int:id>', views.getTickets, name='getTicket')
 ]

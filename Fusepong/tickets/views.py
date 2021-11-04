@@ -21,5 +21,11 @@ def getProject(request, id):
     return render(request, 'projects/project.html', {'projects': projects, 'company': company})
 
 def getHistory(request, id):
-    
-    return 
+    project = get_object_or_404(Project, id=id)
+    histories = History.objects.filter(project=project)
+    return render(request,'histories/history.html', {'histories': histories, 'project': project})
+
+def getTickets(request,id):
+    history = get_object_or_404(History, id=id)
+    tickets = Ticket.objects.filter(history=history)
+    return render(request, 'tickets/ticket.html', {'tickets':tickets, 'history':history})
