@@ -3,15 +3,23 @@
 
 {% block content %}
 <a href="{% url 'getCompany' company.id %}" class="btn btn-primary">{{ company }} </a>
-{% for p in projects %}
-<div class="card" style="width: 18rem; ">
-    <h1>{{ p.name }}</h1>
-    <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-        <a href="{% url 'getHistory' p.id %}" class="btn btn-primary">Histories </a>
+<div class="container" style="padding: 10px;">
+    <div class="row">
+        {% for p in projects %}
+        <div class="col-4">
+            <div class="card" style="width: 18rem; ">
+                <h1>{{ p.name }}</h1>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <a href="{% url 'getHistory' p.id %}" class="btn btn-primary">Histories </a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
     </div>
 </div>
-{% endfor %}
+
 {% endblock %}

@@ -2,15 +2,27 @@
 {% block title %} Companies {% endblock %}
 
 {% block content %}
+<div class="container" style="padding: 10px;">
+  <div class="row">
     {% for c in companies %}
-    <div class="card" style="width: 18rem; " >
-        <h1>{{ c.name }}</h1>
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="{% url 'getCompany' c.id %}" class="btn btn-primary">Details  </a>
-          <a href="{% url 'getProject' c.id %}" class="btn btn-primary">Projects  </a>
+      <div class="col-4">
+        <div class="card" style="width: 18rem; align-items: center ;" >
+          
+          <div class="card-body">
+            <h1>{{ c.name }}</h1>
+            <h5 class="card-title">{{ c.email }}</h5>
+            <h5 class="card-subtitle mb-2 text-muted">{{ c.nit }} (NIT)</h5>
+            <div class="container" style="padding-bottom: 15px;">
+              <h6 class="card-text">Phone: {{ c.phone }}</h6>
+              <h6 class="card-text">Address: {{ c.address }}</h6>
+              <h6 class="card-text">{{ c.email }}</h6>
+            </div>            
+            <a href="{% url 'getCompany' c.id %}" class="btn btn-primary">Details  </a>
+            <a href="{% url 'getProject' c.id %}" class="btn btn-primary">Projects  </a>
+          </div>
         </div>
       </div>
     {% endfor %}
+  </div>
+</div>
 {% endblock %}

@@ -1,5 +1,6 @@
-from django import contrib
-from django.shortcuts import get_object_or_404, render
+from django.shortcuts import get_object_or_404, render, redirect
+from django.contrib.auth.forms import UserCreationForm
+from django.contrib import messages
 from .models import *
 
 # Create your views here.
@@ -29,3 +30,16 @@ def getTickets(request,id):
     history = get_object_or_404(History, id=id)
     tickets = Ticket.objects.filter(history=history)
     return render(request, 'tickets/ticket.html', {'tickets':tickets, 'history':history})
+
+def register(request):
+    if request.method == "POST":
+        form = UserCreationForm(request.POST)
+        if form.is_valid():
+            form.save()
+            username = form.cleaned_data['username']
+            print("Usuario creado")
+            messages.success(request, 'Usuario creado')
+            return redirect('home')
+    else:
+        form = UserCreationForm()
+    return render(request, 'social/register.html', {'form': form})

@@ -3,13 +3,21 @@
 
 {% block content %}
 <a href="{% url 'getHistory' history.id %}" class="btn btn-primary">{{ history }} </a>
-{% for t in tickets %}
-<div class="card" style="width: 18rem; ">
-    <h1>{{ t.name }}</h1>
-    <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">{{ t.comments }}</p>
+<div class="container" style="padding: 10px;">
+    <div class="row">
+        {% for t in tickets %}
+        <div class="col-4">
+            <div class="card" style="width: 18rem; ">
+                <h1>{{ t.name }}</h1>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">{{ t.comments }}</p>
+                </div>
+            </div>
+        </div>
+
+        {% endfor %}
     </div>
 </div>
-{% endfor %}
+
 {% endblock %}
