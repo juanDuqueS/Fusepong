@@ -7,5 +7,4 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # ToDo
-* improve database 
-* add slugs to have a better search
+* add messages to notificate different status

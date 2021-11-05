@@ -2,5 +2,26 @@
 {% block title %} Home {% endblock %}
 
 {% block content %}
-<h1>lorem ipsum</h1>
+{% if request.user.is_authenticated %}
+<div class="px-4 py-5 my-5 text-center">
+    <h1 class="display-5 fw-bold">Welcome {{ request.user }}!</h1>
+    <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Please navigate trough the app with the navbar in the top!</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a class="btn btn-outline-secondary btn-lg px-4" href="{% url 'logout' %}">LogOut</a>
+        </div>
+    </div>
+</div>
+{% else %}
+<div class="px-4 py-5 my-5 text-center">
+    <h1 class="display-5 fw-bold">Welcome!</h1>
+    <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">To start using the app you will need to login with an existing account or register a new one, all can be done with the buttons below!</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a class="btn btn-outline-primary btn-lg px-4" href="{% url 'login' %}">LogIn</a>
+            <a class="btn btn-outline-primary btn-lg px-4" href="{% url 'register' %}">Register</a>
+        </div>
+    </div>
+</div>
+{% endif %}
 {% endblock %}

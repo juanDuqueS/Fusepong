@@ -2,6 +2,47 @@
 {% block title %} Register {% endblock %}
 
 {% block content %}
+<div class="card ">
+    <article class="card-body mx-auto" style="max-width: 400px;">
+        <h4 class="card-title mt-3 text-center">Create Account</h4>
+        <p class="text-center">Get started with your free account</p>
+        <form class="form" method="POST">
+            {% csrf_token %}
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                </div>
+                <input name="username" maxlength="150" autofocus required id="id_username" class="form-control" placeholder="Username" type="text">
+            </div> <!-- form-group// -->
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+                </div>
+                <input name="email" required id="id_email" class="form-control" placeholder="Email address" type="email">
+            </div> <!-- form-group// -->
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                </div>
+                <input class="form-control" placeholder="Create password" type="password" name="password1" autocomplete="new-password" required id="id_password1">
+            </div> <!-- form-group// -->
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                </div>
+                <input class="form-control" placeholder="Repeat password" type="password" name="password2" autocomplete="new-password" required id="id_password2">
+            </div> <!-- form-group// -->
+            <div class="text-center" style="padding-top: 10px;">
+                <button id="submit" type="submit" class="btn btn-primary btn-block"> Create Account </button>
+            </div> <!-- form-group// -->
+            <p class="text-center">Have an account? <a href="{% url 'login' %}">Log In</a> </p>
+        </form>
+    </article>
+</div> <!-- card.// -->
+</div>
+{% endblock %}
+
+<!--
 <div class="container" style="padding: 20px">
     <form class="form" method="POST">
         {% csrf_token %}
@@ -11,5 +52,4 @@
     </form>
 </div>
 
-
-{% endblock %}
+-->

@@ -62,7 +62,6 @@ def register(request):
         form = UserRegisterForm(request.POST)
         if form.is_valid():
             form.save()
-            ## Agregar una aviso !!!!!!!
             return redirect('home')
     else:
         form = UserRegisterForm()

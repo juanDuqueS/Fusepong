@@ -5,10 +5,24 @@
 <div class="container" style="padding: 20px;">
     <form class="form" method="POST">
         {% csrf_token %}
-        <div class="container" style="align-items: center;">
-            {{ form.as_p }}
+        <div class="container" style="align-items: center;width: 70%; padding:3rem">
+            <form>
+                <h1 class="h3 mb-3 fw-normal">Please sign in</h1>            
+                <div class="form-floating">
+                  <input type="text" name="username" class="form-control" id="floatingInput" placeholder="username" autofocus autocapitalize="none" autocomplete="username" maxlength="150" required id="id_username">
+                  <label for="id_username">Username</label>
+                </div>
+                <div class="form-floating">
+                  <input type="password" name="password" class="form-control" autocomplete="current-password" required id="id_password" placeholder="Password">
+                  <label for="id_password">Password</label>
+                </div>
+            
+                <div class="checkbox mb-3">
+                </div>
+                <button class="w-100 btn btn-lg btn-primary" type="submit" id="submit">Sign in</button>
+                <p class="text-center">Do not have an account? <a href="{% url 'register' %}">Register</a> </p>
+              </form>
         </div>
-        <button type="submit" id="submit">Register</button>
     </form>
 </div>
 
