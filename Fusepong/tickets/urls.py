@@ -9,7 +9,8 @@ urlpatterns = [
     path('projects/<int:id>', views.getProject, name='getProject'),
     path('histories/<int:id>', views.getHistory, name='getHistory'),
     path('tickets/<int:id>', views.getTickets, name='getTicket'),
+    path('addTicket/<int:id>', views.addTicket, name='addTicket'),
     path('register/', views.register, name='register'),
     path('login/', LoginView.as_view(template_name='social/login.html'), name='login'),
-    path('logout/', LogoutView.as_view(template_name='social/logout.html'), name='logout'),
+    path('logout/', LogoutView.as_view(template_name='home.html'), name='logout'),
 ]

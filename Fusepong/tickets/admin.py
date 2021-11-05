@@ -18,5 +18,5 @@ class HistoryAdmin(admin.ModelAdmin):
 
 @admin.register(Ticket)
 class TicketAdmin(admin.ModelAdmin):
-    list_display = ['id', 'name', 'active', 'finished', 'createdBy', 'created', 'updated']
+    list_display = ['id', 'name', 'active', 'finished', 'created', 'updated']
     list_filter = ['active', 'finished']

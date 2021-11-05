@@ -1,23 +1,34 @@
 {% extends "base.html" %}
-{% block title %} {{ tickets.name}} {% endblock %}
+{% block title %} Tickets {% endblock %}
 
 {% block content %}
-<a href="{% url 'getHistory' history.id %}" class="btn btn-primary">{{ history }} </a>
-<div class="container" style="padding: 10px;">
-    <div class="row">
+<div class="container" style="padding: 3rem;">
+    <div class="row" style="padding-bottom: 1rem">
         {% for t in tickets %}
         <div class="col-4">
-            <div class="card" style="width: 18rem; ">
+            <div class="card" style="width: 18rem; text-align: center ;">
                 <h1>{{ t.name }}</h1>
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
                     <p class="card-text">{{ t.comments }}</p>
+                    <p class="card-text">Active: {{ t.active }}</p>
+                    <p class="card-text">Finished: {{ t.finished }}</p>
                 </div>
             </div>
         </div>
 
         {% endfor %}
     </div>
+    <a class="btn btn-success" style="position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;"
+    href="{% url 'addTicket' history.id %}"><h1>+</h1></a>
 </div>
 
 {% endblock %}

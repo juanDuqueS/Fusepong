@@ -51,7 +51,6 @@ class Ticket(models.Model):
     comments = models.TextField(blank=True)
     active = models.BooleanField(default=True)
     finished = models.BooleanField(default=False)
-    createdBy = models.ForeignKey(User, related_name='user', on_delete=models.CASCADE)
     history = models.ForeignKey(History, related_name='history', on_delete=models.CASCADE)
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
