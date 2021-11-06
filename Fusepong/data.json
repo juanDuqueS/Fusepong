@@ -1,0 +1,1297 @@
+[
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2021-11-03T02:11:00.178Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "Coca cola",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2021-11-03T02:12:26.649Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "Ubisoft",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2021-11-03T02:13:04.811Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Front page",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2021-11-03T02:13:34.691Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "2",
+            "object_repr": "Google integration",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2021-11-03T20:34:59.531Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "3",
+            "object_repr": "Intel",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2021-11-04T05:30:34.957Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "HU1",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 7,
+        "fields": {
+            "action_time": "2021-11-04T05:30:52.376Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "HU2",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 8,
+        "fields": {
+            "action_time": "2021-11-04T05:46:45.418Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "1",
+            "object_repr": "ticket1",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 9,
+        "fields": {
+            "action_time": "2021-11-04T22:57:24.086Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "HU3",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 10,
+        "fields": {
+            "action_time": "2021-11-05T17:11:13.564Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "3",
+            "object_repr": "Back end",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 11,
+        "fields": {
+            "action_time": "2021-11-05T17:11:37.369Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "4",
+            "object_repr": "Database",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 12,
+        "fields": {
+            "action_time": "2021-11-05T17:11:40.414Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "4",
+            "object_repr": "Database",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 13,
+        "fields": {
+            "action_time": "2021-11-05T17:31:08.887Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "4",
+            "object_repr": "Samsung",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 14,
+        "fields": {
+            "action_time": "2021-11-05T17:32:51.998Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "Coca cola",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Nit\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 15,
+        "fields": {
+            "action_time": "2021-11-06T00:34:56.568Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "1",
+            "object_repr": "ticket1",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Finished\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 16,
+        "fields": {
+            "action_time": "2021-11-06T01:03:30.922Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "1",
+            "object_repr": "ticket1",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Finished\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 17,
+        "fields": {
+            "action_time": "2021-11-06T07:26:51.586Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Front page",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 18,
+        "fields": {
+            "action_time": "2021-11-06T07:27:14.819Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "2",
+            "object_repr": "Google integration",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 19,
+        "fields": {
+            "action_time": "2021-11-06T07:27:23.111Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "3",
+            "object_repr": "Back end",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 20,
+        "fields": {
+            "action_time": "2021-11-06T07:30:07.117Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "5",
+            "object_repr": "Todo list",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 21,
+        "fields": {
+            "action_time": "2021-11-06T07:31:07.931Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "6",
+            "object_repr": "test processors",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 22,
+        "fields": {
+            "action_time": "2021-11-06T07:31:16.244Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "4",
+            "object_repr": "Samsung",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 23,
+        "fields": {
+            "action_time": "2021-11-06T07:32:57.693Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "4",
+            "object_repr": "Make connections",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 24,
+        "fields": {
+            "action_time": "2021-11-06T07:34:48.419Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "5",
+            "object_repr": "Discard complete tasks",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 25,
+        "fields": {
+            "action_time": "2021-11-06T07:35:47.619Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "6",
+            "object_repr": "add task",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 26,
+        "fields": {
+            "action_time": "2021-11-06T07:36:13.580Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "Homepage",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 27,
+        "fields": {
+            "action_time": "2021-11-06T07:36:53.643Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "test processors",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Description\", \"Project\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 28,
+        "fields": {
+            "action_time": "2021-11-06T07:37:47.319Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "Crete api",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Description\", \"Project\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 29,
+        "fields": {
+            "action_time": "2021-11-06T07:38:24.839Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "1",
+            "object_repr": "ticket1",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"History\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 30,
+        "fields": {
+            "action_time": "2021-11-06T07:38:41.109Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "5",
+            "object_repr": "ticket 1",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"History\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 31,
+        "fields": {
+            "action_time": "2021-11-06T07:38:50.264Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "6",
+            "object_repr": "ticket 3",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"History\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 32,
+        "fields": {
+            "action_time": "2021-11-06T07:38:56.568Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "7",
+            "object_repr": "add title",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"History\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 33,
+        "fields": {
+            "action_time": "2021-11-06T07:39:12.889Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "9",
+            "object_repr": "ticket test",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Finished\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 34,
+        "fields": {
+            "action_time": "2021-11-06T07:39:53.534Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "10",
+            "object_repr": "Make user api",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 4,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 4,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 4,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 4,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 5,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 5,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 5,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 5,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 6,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 6,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 6,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 6,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add history",
+            "content_type": 7,
+            "codename": "add_history"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change history",
+            "content_type": 7,
+            "codename": "change_history"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete history",
+            "content_type": 7,
+            "codename": "delete_history"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view history",
+            "content_type": 7,
+            "codename": "view_history"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add company",
+            "content_type": 8,
+            "codename": "add_company"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change company",
+            "content_type": 8,
+            "codename": "change_company"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete company",
+            "content_type": 8,
+            "codename": "delete_company"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view company",
+            "content_type": 8,
+            "codename": "view_company"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add project",
+            "content_type": 9,
+            "codename": "add_project"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change project",
+            "content_type": 9,
+            "codename": "change_project"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete project",
+            "content_type": 9,
+            "codename": "delete_project"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view project",
+            "content_type": 9,
+            "codename": "view_project"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 37,
+        "fields": {
+            "name": "Can add ticket",
+            "content_type": 10,
+            "codename": "add_ticket"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 38,
+        "fields": {
+            "name": "Can change ticket",
+            "content_type": 10,
+            "codename": "change_ticket"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 39,
+        "fields": {
+            "name": "Can delete ticket",
+            "content_type": 10,
+            "codename": "delete_ticket"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 40,
+        "fields": {
+            "name": "Can view ticket",
+            "content_type": 10,
+            "codename": "view_ticket"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$260000$kT2dEEQuVlXthaUUO6LqoI$1CjAF0zMcz0QVNmNoKquHtU7pbnOFuLoKGWkbjjUeNs=",
+            "last_login": "2021-11-06T07:25:45.799Z",
+            "is_superuser": true,
+            "username": "jduque",
+            "first_name": "",
+            "last_name": "",
+            "email": "jduqueserna@gmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2021-11-03T02:08:23.176Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$260000$o4e10yP6hsoQd72NStSeSS$mklGvebsbW9eqDM8/YfSzu9z6GCbRdPwJtlLkn8IHgA=",
+            "last_login": "2021-11-05T22:39:58.990Z",
+            "is_superuser": false,
+            "username": "alejandro",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2021-11-04T23:33:30.251Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$260000$j95RkFB9FEdmaCf3uEyWew$BGB1MclnQ2ypQoJPfBZBBr1KcpnVfGIcQdJ324fIY7U=",
+            "last_login": "2021-11-05T04:41:16.226Z",
+            "is_superuser": false,
+            "username": "angelica",
+            "first_name": "",
+            "last_name": "",
+            "email": "ange@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2021-11-05T04:40:50.242Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 4,
+        "fields": {
+            "password": "pbkdf2_sha256$260000$tDFQjsZcP2Zxu3V6OEGLRJ$xk549pQ/hzzPHZjzrgY9oWtlfwcVknwxq5BJTKL4ogI=",
+            "last_login": "2021-11-05T23:23:39.140Z",
+            "is_superuser": false,
+            "username": "Manuel",
+            "first_name": "",
+            "last_name": "",
+            "email": "manuel@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2021-11-05T23:22:55.169Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 5,
+        "fields": {
+            "password": "pbkdf2_sha256$260000$1UaHUrxTYkJanjYlZYyG4U$TT6/1IyCaEJ1qJNZmC0L7fmrIF3Agp660SHwzSSOdfs=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "david",
+            "first_name": "",
+            "last_name": "",
+            "email": "david@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2021-11-05T23:43:54.211Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "auth",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "tickets",
+            "model": "history"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "tickets",
+            "model": "company"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 9,
+        "fields": {
+            "app_label": "tickets",
+            "model": "project"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 10,
+        "fields": {
+            "app_label": "tickets",
+            "model": "ticket"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "344m8bosmtz1cf22hajaaio27d9lri3e",
+        "fields": {
+            "session_data": ".eJxVjEsOwjAMBe-SNYoSJ2ldluw5Q-XYDi2gRupnhbg7VOoCtm9m3sv0tK1Dvy0696OYs_Hm9Ltl4odOO5A7TbdquU7rPGa7K_agi71W0eflcP8OBlqGb518Ca40DlAZBBO2LsXEgZ1ER6V4QgUUyEFJtcsQGVKjnUQE9q2a9wfaATf9:1mjG5B:0nwoBEUlhartGiw0NQ0VFS-NFYJOXHuGTTcbhCIolek",
+            "expire_date": "2021-11-20T07:25:45.808Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "blxds1nz375pu3n155g03sqrbig4bjpt",
+        "fields": {
+            "session_data": ".eJxVjEsOwjAMBe-SNYoSJ2ldluw5Q-XYDi2gRupnhbg7VOoCtm9m3sv0tK1Dvy0696OYs_Hm9Ltl4odOO5A7TbdquU7rPGa7K_agi71W0eflcP8OBlqGb518Ca40DlAZBBO2LsXEgZ1ER6V4QgUUyEFJtcsQGVKjnUQE9q2a9wfaATf9:1mj9fH:XMc05l_MIv_5ofWeOcV4AlxiWoJh5UhFHsBi6h07wQo",
+            "expire_date": "2021-11-20T00:34:35.700Z"
+        }
+    },
+    {
+        "model": "tickets.company",
+        "pk": 1,
+        "fields": {
+            "name": "Coca cola",
+            "nit": 946123,
+            "phone": 1232123,
+            "address": "calle 123",
+            "email": "cocacola@gmail.com",
+            "created": "2021-11-04T20:23:24.890Z",
+            "updated": "2021-11-05T17:32:51.997Z"
+        }
+    },
+    {
+        "model": "tickets.company",
+        "pk": 2,
+        "fields": {
+            "name": "Ubisoft",
+            "nit": 123123,
+            "phone": 123123,
+            "address": "lorem impsum",
+            "email": "ubisoft@ubisoft.com",
+            "created": "2021-11-04T20:23:24.890Z",
+            "updated": "2021-11-04T20:23:24.900Z"
+        }
+    },
+    {
+        "model": "tickets.company",
+        "pk": 3,
+        "fields": {
+            "name": "Intel",
+            "nit": 13123,
+            "phone": 123123,
+            "address": "callle 432141",
+            "email": "intel@intel.com",
+            "created": "2021-11-04T20:23:24.890Z",
+            "updated": "2021-11-04T20:23:24.900Z"
+        }
+    },
+    {
+        "model": "tickets.project",
+        "pk": 1,
+        "fields": {
+            "name": "Front page",
+            "description": "Make the front page for the coca cola company",
+            "company": 1,
+            "created": "2021-11-04T20:23:24.949Z",
+            "updated": "2021-11-06T07:26:51.580Z"
+        }
+    },
+    {
+        "model": "tickets.project",
+        "pk": 2,
+        "fields": {
+            "name": "Google integration",
+            "description": "Integrate login with google",
+            "company": 1,
+            "created": "2021-11-04T20:23:24.949Z",
+            "updated": "2021-11-06T07:27:14.817Z"
+        }
+    },
+    {
+        "model": "tickets.project",
+        "pk": 3,
+        "fields": {
+            "name": "Back end",
+            "description": "back end for ubisoft",
+            "company": 2,
+            "created": "2021-11-05T17:11:13.557Z",
+            "updated": "2021-11-06T07:27:23.110Z"
+        }
+    },
+    {
+        "model": "tickets.project",
+        "pk": 4,
+        "fields": {
+            "name": "Database",
+            "description": "database for ubisoft",
+            "company": 2,
+            "created": "2021-11-05T17:11:37.367Z",
+            "updated": "2021-11-05T17:11:40.412Z"
+        }
+    },
+    {
+        "model": "tickets.project",
+        "pk": 5,
+        "fields": {
+            "name": "Todo list",
+            "description": "Make a todo list",
+            "company": 3,
+            "created": "2021-11-06T07:30:07.116Z",
+            "updated": "2021-11-06T07:30:07.116Z"
+        }
+    },
+    {
+        "model": "tickets.project",
+        "pk": 6,
+        "fields": {
+            "name": "test processors",
+            "description": "Test depply different processors",
+            "company": 3,
+            "created": "2021-11-06T07:31:07.926Z",
+            "updated": "2021-11-06T07:31:07.926Z"
+        }
+    },
+    {
+        "model": "tickets.history",
+        "pk": 1,
+        "fields": {
+            "name": "Homepage",
+            "description": "Make the homepage according to requirements",
+            "finished": false,
+            "project": 1,
+            "created": "2021-11-04T20:23:24.910Z",
+            "updated": "2021-11-06T07:36:13.578Z"
+        }
+    },
+    {
+        "model": "tickets.history",
+        "pk": 2,
+        "fields": {
+            "name": "test processors",
+            "description": "All processors should pass specified tests",
+            "finished": false,
+            "project": 6,
+            "created": "2021-11-04T20:23:24.910Z",
+            "updated": "2021-11-06T07:36:53.641Z"
+        }
+    },
+    {
+        "model": "tickets.history",
+        "pk": 3,
+        "fields": {
+            "name": "Crete api",
+            "description": "Create the api which will be passed to the front end",
+            "finished": false,
+            "project": 3,
+            "created": "2021-11-04T22:57:24.078Z",
+            "updated": "2021-11-06T07:37:47.307Z"
+        }
+    },
+    {
+        "model": "tickets.history",
+        "pk": 4,
+        "fields": {
+            "name": "Make connections",
+            "description": "The database should be able to connect to a terminal or the project app",
+            "finished": false,
+            "project": 4,
+            "created": "2021-11-06T07:32:57.692Z",
+            "updated": "2021-11-06T07:32:57.692Z"
+        }
+    },
+    {
+        "model": "tickets.history",
+        "pk": 5,
+        "fields": {
+            "name": "Discard complete tasks",
+            "description": "The app should have a button to which you can complete a task",
+            "finished": false,
+            "project": 5,
+            "created": "2021-11-06T07:34:48.416Z",
+            "updated": "2021-11-06T07:34:48.416Z"
+        }
+    },
+    {
+        "model": "tickets.history",
+        "pk": 6,
+        "fields": {
+            "name": "add task",
+            "description": "The application should have a button to add new tasks to the queue",
+            "finished": true,
+            "project": 5,
+            "created": "2021-11-06T07:35:47.618Z",
+            "updated": "2021-11-06T07:35:47.618Z"
+        }
+    },
+    {
+        "model": "tickets.ticket",
+        "pk": 1,
+        "fields": {
+            "name": "ticket1",
+            "comments": "lorem ipsum",
+            "active": true,
+            "finished": true,
+            "history": 4,
+            "created": "2021-11-04T05:46:45.417Z",
+            "updated": "2021-11-06T07:38:24.837Z"
+        }
+    },
+    {
+        "model": "tickets.ticket",
+        "pk": 2,
+        "fields": {
+            "name": "Ticket 2",
+            "comments": "new ticket",
+            "active": true,
+            "finished": false,
+            "history": 1,
+            "created": "2021-11-05T16:21:18.393Z",
+            "updated": "2021-11-05T16:21:18.393Z"
+        }
+    },
+    {
+        "model": "tickets.ticket",
+        "pk": 3,
+        "fields": {
+            "name": "Ticket 3",
+            "comments": "comments on tickets",
+            "active": true,
+            "finished": true,
+            "history": 1,
+            "created": "2021-11-05T16:35:16.373Z",
+            "updated": "2021-11-05T16:35:16.373Z"
+        }
+    },
+    {
+        "model": "tickets.ticket",
+        "pk": 4,
+        "fields": {
+            "name": "ticket 1",
+            "comments": "lorem ipsum",
+            "active": true,
+            "finished": false,
+            "history": 2,
+            "created": "2021-11-05T16:36:49.412Z",
+            "updated": "2021-11-05T16:36:49.412Z"
+        }
+    },
+    {
+        "model": "tickets.ticket",
+        "pk": 5,
+        "fields": {
+            "name": "ticket 1",
+            "comments": "lorem ipsum",
+            "active": true,
+            "finished": false,
+            "history": 3,
+            "created": "2021-11-05T16:37:26.336Z",
+            "updated": "2021-11-06T07:38:41.107Z"
+        }
+    },
+    {
+        "model": "tickets.ticket",
+        "pk": 6,
+        "fields": {
+            "name": "ticket 3",
+            "comments": "lorem ipsum",
+            "active": true,
+            "finished": false,
+            "history": 5,
+            "created": "2021-11-05T16:38:05.626Z",
+            "updated": "2021-11-06T07:38:50.263Z"
+        }
+    },
+    {
+        "model": "tickets.ticket",
+        "pk": 7,
+        "fields": {
+            "name": "add title",
+            "comments": "add the title",
+            "active": true,
+            "finished": true,
+            "history": 6,
+            "created": "2021-11-06T00:05:42.446Z",
+            "updated": "2021-11-06T07:38:56.562Z"
+        }
+    },
+    {
+        "model": "tickets.ticket",
+        "pk": 8,
+        "fields": {
+            "name": "new ticket",
+            "comments": "this ticket should be finished",
+            "active": true,
+            "finished": true,
+            "history": 1,
+            "created": "2021-11-06T06:52:06.024Z",
+            "updated": "2021-11-06T06:52:06.024Z"
+        }
+    },
+    {
+        "model": "tickets.ticket",
+        "pk": 9,
+        "fields": {
+            "name": "ticket test",
+            "comments": "this ticket should not be finished",
+            "active": true,
+            "finished": true,
+            "history": 1,
+            "created": "2021-11-06T06:52:39.995Z",
+            "updated": "2021-11-06T07:39:12.879Z"
+        }
+    },
+    {
+        "model": "tickets.ticket",
+        "pk": 10,
+        "fields": {
+            "name": "Make user api",
+            "comments": "Create a CRUD for the user module",
+            "active": true,
+            "finished": false,
+            "history": 3,
+            "created": "2021-11-06T07:39:53.530Z",
+            "updated": "2021-11-06T07:39:53.530Z"
+        }
+    }
+]
