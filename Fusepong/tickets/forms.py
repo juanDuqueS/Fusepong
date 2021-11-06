@@ -2,7 +2,7 @@ from django import forms
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User
 from django.forms.widgets import Textarea
-from .models import Company, Ticket
+from .models import Ticket
 
 class UserRegisterForm(UserCreationForm):
     email = forms.EmailField()

@@ -5,13 +5,23 @@
 <div class="container" style="padding: 3rem;">
     <div class="row" style="padding-bottom: 1rem">
         {% for t in tickets %}
-        <div class="col-4">
+        <div class="col-4" style="padding-bottom: 1rem;">
             <div class="card bg-light" style="width: 18rem; text-align: center ;">
-                <h1>{{ t.name }}</h1>
+                {% if t.finished %}
+                <div class="card-header bg-success">{{ t.name }}</div>  
+                {% else %}
+                <div class="card-header">{{ t.name }}</div>  
+                {% endif %}    
                 <div class="card-body">
                     <p class="card-text">{{ t.comments }}</p>
-                    <p class="card-text">Active: {{ t.active }}</p>
-                    <p class="card-text">Finished: {{ t.finished }}</p>
+                </div>
+                <div class="container" style="align-items: center; padding-bottom: 10px;">
+                    {% if t.finished == False %}
+                    <a class="btn btn-success" href="{% url 'ticketStatus' t.id%}">Set as complete</a>
+                    {% else %}
+                    <a class="btn btn-outline-success" href="{% url 'ticketStatus' t.id%}">Completed</a>
+                    {% endif %}
+
                 </div>
             </div>
         </div>

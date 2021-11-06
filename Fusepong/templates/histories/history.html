@@ -5,9 +5,11 @@
 <div class="container" style="padding: 3rem;">
     <div class="row" style="padding-bottom: 1rem">
         {% for h in histories %}
-        <div class="col-4">
-            <div class="card" style="width: 18rem; text-align: center ;">
-                <h1>{{ h.name }}</h1>
+        <div class="col-4" style="padding-bottom: 1rem;">
+            <div class="card bg-light" style="width: 18rem; text-align: center ;">
+                <div class="card-header">
+                  {{ h.name }}
+                </div>
                 <div class="card-body">
                     <p class="card-text">{{ h.description }}</p>
                     <p>Finished: {{ h.finished }}</p>

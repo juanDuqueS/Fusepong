@@ -7,4 +7,5 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # ToDo
-* add messages to notificate different status
+* add messages to notificate different status (ex: user created, ticket added succesfully, etc)
+* Finish crud for companies, projects and histories
